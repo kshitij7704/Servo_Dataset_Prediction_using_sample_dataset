@@ -25,3 +25,32 @@ Servo_Dataset_Prediction_using_sample_dataset/
 ├── README.md
 └── requirements.txt 
 ```
+
+---
+
+## 🚀 How to Run the Project
+
+🔹 **Step 1**: Clone the repository
+  ```
+  git clone https://github.com/your-username/Servo_Dataset_Prediction_using_sample_dataset
+  cd Servo_Dataset_Prediction_using_sample_dataset
+  ```
+🔹 **Step 2**: Create a virtual environment (optional but recommended)
+  ```
+  python -m venv venv
+  # Activate environment
+  # On Windows:
+  venv\Scripts\activate
+  # On macOS/Linux:
+  source venv/bin/activate
+  ```
+🔹 **Step 3**: Install the dependencies
+  ```
+  pip install -r requirements.txt
+  ```
+🔹 **Step 4**: Open the Jupyter Notebook
+  ```
+  jupyter notebook servo_prediction.ipynb
+  ```
+
+---
