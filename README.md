@@ -14,3 +14,14 @@ To demonstrate how machine learning (specifically linear regression) can be used
 - 🔢 NumPy – for numerical operations  
 - 📈 Scikit-learn – for building and evaluating the regression model  
 - 📉 Matplotlib / Seaborn *(optional)* – for data visualization (if included)
+
+---
+
+## 📁 Project Structure
+```
+Servo_Dataset_Prediction_using_sample_dataset/
+├── Servo_Mechanism.csv
+├── servo_prediction.ipynb
+├── README.md
+└── requirements.txt 
+```
