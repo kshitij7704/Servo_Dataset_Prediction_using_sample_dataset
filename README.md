@@ -54,3 +54,37 @@ Servo_Dataset_Prediction_using_sample_dataset/
   ```
 
 ---
+
+🔍 Project Workflow
+1️. Data Loading 📥
+Load the servo dataset and assign column names.
+2️. Preprocessing 🧹
+    - Encode categorical variables
+    - Handle missing values (if any)
+    - Normalize/scale data (if necessary)
+3️. Model Training 🤖
+Use LinearRegression from sklearn.linear_model
+Fit the model on training data
+4️. Evaluation 📊
+    - Analyze performance using metrics like MAE, MSE, or R² score
+    - Visualize predictions (optional)
+5️. Prediction ✅
+Predict class labels for new or test data points
+
+---
+
+## 📈 Sample Output
+
+---
+
+## 🧠 Insights
+- Linear Regression can model relationships between numeric features and servo performance classes.
+- Dataset preprocessing (like encoding) is crucial due to categorical fields.
+- Model performance can vary significantly with preprocessing and feature selection.
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+
+---
