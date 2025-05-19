@@ -91,14 +91,13 @@ Unimind-Ensemble-Predictor/
 
 | Model                  | MSE    | R²    |
 |------------------------|--------|-------|
-| Ridge + Polynomial     |  X.XXX |  X.XXX|
-| SVR (RBF)              |  X.XXX |  X.XXX|
-| Decision Tree          |  X.XXX |  X.XXX|
-| Random Forest          |  X.XXX |  X.XXX|
-| Gradient Boosting      |  X.XXX |  X.XXX|
-| **Median Ensemble**    |  X.XXX |  X.XXX|
+| Ridge + Polynomial     | 38.925 |  0.834|
+| SVR (RBF)              | 40.674 |  0.827|
+| Decision Tree          | 69.324 |  0.704|
+| Random Forest          | 28.008 |  0.881|
+| Gradient Boosting      | 37.819 |  0.839|
+| **Ensemble**           | 53.303 |  0.773|
 
-*(Replace X.XXX with actual results)*
 
 ---
 
