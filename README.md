@@ -55,7 +55,7 @@ Servo_Dataset_Prediction_using_sample_dataset/
 
 ---
 
-🔍 Project Workflow
+## 🔍 Project Workflow
 1️. Data Loading 📥
 Load the servo dataset and assign column names.
 2️. Preprocessing 🧹
@@ -87,4 +87,4 @@ Predict class labels for new or test data points
 ## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
----
+
