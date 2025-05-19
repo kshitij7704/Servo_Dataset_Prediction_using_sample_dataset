@@ -54,8 +54,8 @@ Unimind-Ensemble-Predictor/
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/Unimind-Ensemble-Predictor.git
-   cd Unimind-Ensemble-Predictor
+   git clone https://github.com/kshitij7704/Unimind_Ensemble_Predictor.git
+   cd Unimind_Ensemble_Predictor
    ```
 
 2. **Create & activate a virtual environment**  
