@@ -1,4 +1,3 @@
-
 # 🧠 Unimind Ensemble Predictor
 
 Unimind is an interactive Streamlit application that delivers **smart ensemble predictions** by aggregating outputs from multiple machine learning models.
@@ -22,19 +21,30 @@ Combine diverse regressors—**Ridge (polynomial)**, **Decision Tree**, **Random
 ## 📁 Repository Structure
 ```
 Unimind-Ensemble-Predictor/
-├── data/
-│   └── Servo_Mechanism.csv
-├── models/
-│   ├── ridge_poly_model.pkl
-│   ├── decision_tree_model.pkl
-│   ├── random_forest_model.pkl
-│   ├── gradient_boosting_model.pkl
-│   └── svr_rbf_model.pkl
-├── streamlit_app.py
-├── EDA_script.py
-├── 2_linear_regression_improved.py
-├── 6_svr_improved.py
+├── Decision Tree/
+│   ├── Decision_Tree.ipynb
+│   └── decision_tree_model.pkl
+├── EDA/
+│   └── EDA.ipynb
+├── Ensemble/
+│   ├── Ensemble.ipynb
+│   └── ensemble_predictions.csv
+├── Gradient Boosting/
+│   ├── Gradient_Boosting.ipynb
+│   └── gradient_boosting_model.pkl
+├── Linear Regression/
+│   ├── Linear_Regression.ipynb
+│   └── linear_regression_model.pkl
+├── Random Forest/
+│   ├── Random_Forest.ipynb
+│   └── random_forest_model.pkl
+├── Svr/
+│   ├── Svr.ipynb
+│   └── svr_model.pkl
+├── Output_SS.png
 ├── README.md
+├── Servo_Mechanism.csv
+├── app.py
 └── requirements.txt
 ```
 
