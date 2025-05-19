@@ -1,90 +1,101 @@
-# 🤖 Servo Dataset Prediction using Sample Dataset
-This project analyzes a sample servo dataset to predict the **class of a mechanical component** based on multiple input features. A **Linear Regression model** is used for prediction, implemented using popular Python libraries such as **NumPy**, **Pandas**, and **Scikit-learn**.
+
+# 🧠 Unimind Ensemble Predictor
+
+Unimind is an interactive Streamlit application that delivers **smart ensemble predictions** by aggregating outputs from multiple machine learning models.
 
 ---
 
 ## 📌 Objective
-To demonstrate how machine learning (specifically linear regression) can be used to predict component classifications in servo systems using a small sample dataset.
+Combine diverse regressors—**Ridge (polynomial)**, **Decision Tree**, **Random Forest**, **Gradient Boosting**, and **SVR**—to produce robust numerical predictions for any new data point through a median ensemble strategy.
 
 ---
 
-## 🧰 Tools & Libraries Used
-- 🐍 Python 3.x  
-- 📊 Pandas – for data manipulation  
-- 🔢 NumPy – for numerical operations  
-- 📈 Scikit-learn – for building and evaluating the regression model  
-- 📉 Matplotlib / Seaborn *(optional)* – for data visualization (if included)
+## 🧰 Tools & Libraries
+- 🐍 **Python 3.x**  
+- 📊 **Pandas**, **NumPy** – data handling  
+- 📈 **Scikit-learn** – model pipelines and hyperparameter searches  
+- 🚀 **Streamlit** – elegant web interface  
+- 💾 **Joblib** – serialization of pipelines  
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 ```
-Servo_Dataset_Prediction_using_sample_dataset/
-├── Servo_Mechanism.csv
-├── servo_prediction.ipynb
+Unimind-Ensemble-Predictor/
+├── data/
+│   └── Servo_Mechanism.csv
+├── models/
+│   ├── ridge_poly_model.pkl
+│   ├── decision_tree_model.pkl
+│   ├── random_forest_model.pkl
+│   ├── gradient_boosting_model.pkl
+│   └── svr_rbf_model.pkl
+├── streamlit_app.py
+├── EDA_script.py
+├── 2_linear_regression_improved.py
+├── 6_svr_improved.py
 ├── README.md
-└── requirements.txt 
+└── requirements.txt
 ```
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 Getting Started
 
-🔹 **Step 1**: Clone the repository
-  ```
-  git clone https://github.com/your-username/Servo_Dataset_Prediction_using_sample_dataset
-  cd Servo_Dataset_Prediction_using_sample_dataset
-  ```
-🔹 **Step 2**: Create a virtual environment (optional but recommended)
-  ```
-  python -m venv venv
-  # Activate environment
-  # On Windows:
-  venv\Scripts\activate
-  # On macOS/Linux:
-  source venv/bin/activate
-  ```
-🔹 **Step 3**: Install the dependencies
-  ```
-  pip install -r requirements.txt
-  ```
-🔹 **Step 4**: Open the Jupyter Notebook
-  ```
-  jupyter notebook servo_prediction.ipynb
-  ```
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/Unimind-Ensemble-Predictor.git
+   cd Unimind-Ensemble-Predictor
+   ```
+
+2. **Create & activate a virtual environment**  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # macOS/Linux
+   venv\Scripts\activate   # Windows
+   ```
+
+3. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the app**  
+   ```bash
+   streamlit run streamlit_app.py
+   ```
 
 ---
 
 ## 🔍 Project Workflow
-1️. Data Loading 📥
-Load the servo dataset and assign column names.
-2️. Preprocessing 🧹
-    - Encode categorical variables
-    - Handle missing values (if any)
-    - Normalize/scale data (if necessary)
-3️. Model Training 🤖
-Use LinearRegression from sklearn.linear_model
-Fit the model on training data
-4️. Evaluation 📊
-    - Analyze performance using metrics like MAE, MSE, or R² score
-    - Visualize predictions (optional)
-5️. Prediction ✅
-Predict class labels for new or test data points
+
+1. **EDA:** Understand data distributions and correlations.  
+2. **Preprocessing:** Encode categories, scale numerics, add polynomial features.  
+3. **Model Training:** Train & tune multiple regressors via cross-validation.  
+4. **Ensemble:** Serialize pipelines & combine via median for stability.  
+5. **Deployment:** Streamlit UI for instant predictions.
 
 ---
 
-## 📈 Sample Output
+## 📈 Performance Metrics
 
----
+| Model                  | MSE    | R²    |
+|------------------------|--------|-------|
+| Ridge + Polynomial     |  X.XXX |  X.XXX|
+| SVR (RBF)              |  X.XXX |  X.XXX|
+| Decision Tree          |  X.XXX |  X.XXX|
+| Random Forest          |  X.XXX |  X.XXX|
+| Gradient Boosting      |  X.XXX |  X.XXX|
+| **Median Ensemble**    |  X.XXX |  X.XXX|
 
-## 🧠 Insights
-- Linear Regression can model relationships between numeric features and servo performance classes.
-- Dataset preprocessing (like encoding) is crucial due to categorical fields.
-- Model performance can vary significantly with preprocessing and feature selection.
+*(Replace X.XXX with actual results)*
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+Contributions welcome! Open issues or PRs to improve Unimind.
 
+---
 
+## 📝 Author
+Built with ❤️ by **Kshitij Kashyap**.
