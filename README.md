@@ -87,6 +87,15 @@ Unimind-Ensemble-Predictor/
 
 ---
 
+---
+
+## 🎨 UI Preview
+
+![UI Preview](Output_SS.png)
+*The app features a clean sidebar for inputs and a modern layout for your predicted Class.*
+
+---
+
 ## 📈 Performance Metrics
 
 | Model                  | MSE    | R²    |
