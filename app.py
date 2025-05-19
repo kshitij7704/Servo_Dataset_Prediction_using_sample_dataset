@@ -5,8 +5,8 @@ import joblib
 
 # --- Page Config ---
 st.set_page_config(
-    page_title="MechMaster Ensemble Predictor",
-    page_icon="🤖",
+    page_title="Unimind Ensemble Predictor",
+    page_icon="🧠",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -76,8 +76,8 @@ pgain = st.sidebar.slider("Pgain", 0.0, 10.0, 5.0, 0.1)
 vgain = st.sidebar.slider("Vgain", 0.0, 10.0, 5.0, 0.1)
 
 # --- Main Header ---
-st.markdown("<div class='title'>🤖 MechMaster Ensemble Predictor</div>", unsafe_allow_html=True)
-st.markdown("<p>Use cutting-edge ensemble ML to predict servo <b>Class</b> values instantly!</p>", unsafe_allow_html=True)
+st.markdown("<div class='title'>🧠 Unimind Ensemble Predictor</div>", unsafe_allow_html=True)
+st.markdown("<p>Enter parameters to get <b>smart ensemble predictions</b> in real-time.</p>", unsafe_allow_html=True)
 
 # --- Prediction ---
 if st.button("🚀 Predict Performance"):
@@ -106,4 +106,4 @@ if st.button("🚀 Predict Performance"):
     st.success("🎉 Prediction Complete! Explore more or adjust parameters.")
 
 # --- Footer ---
-st.markdown("<div class='footer'>Built with ❤️ by Kshitij Kashyap | Powered by MechMaster Ensemble Pipelines</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>Built with ❤️ by Kshitij Kashyap | Powered by Unimind Ensemble</div>", unsafe_allow_html=True)
