@@ -98,4 +98,4 @@ Contributions welcome! Open issues or PRs to improve Unimind.
 ---
 
 ## 📝 Author
-Built with ❤️ by **Kshitij Kashyap**.
+Made by [**Kshitij Kashyap**](https://kshitij-kashyap-portfolio.netlify.app/)
